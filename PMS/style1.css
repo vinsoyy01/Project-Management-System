@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',arial;
+}
+
+body
+{
+    background: #e0e3eb; justify-content: center;
+    height: 90vh;   align-items: center;
+}
+/*Box Sections*/
+/*Login Form*/
+.container
+{
+    margin: 90px auto 150px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 400px;   border-radius: 10px;    padding: 20px 30px;
+}
+
+.login img
+{
+    width: 150px;   margin: 20px 90px;
+}
+/*Fonts Section*/
+h1
+{
+    color: #006cff; font-weight: 600;   margin-bottom: 10px;
+    text-align: center;
+}
+p,label
+{
+    margin-bottom: 16px;
+    font-size: 18px;    text-align: center;
+}
+a
+{
+    text-decoration: none;  font-weight: 600;
+    margin: 10px; color: #006cff;   transition: 0.5s;
+}
+a:hover
+{
+    color: black;
+}
+
+/*Form Sections*/
+form input{
+    margin-bottom: 14px;    width: 100%;
+    padding: 12px;  font-size: 16px;
+    border: 1px solid;
+}
+
+form [type="checkbox"]
+{
+    margin-right: -155px;
+    margin-left: 10px;
+}
+form .btn
+{
+    font-weight: 600;   background: #39CD42;
+    cursor: pointer;    color: white;   transition: 0.5s;
+    border: 2px solid #39CD42; border-radius: 12px; margin: 12px 0;
+}
+form .btn:hover
+{
+    color: #39CD42; background: white;
+}
+
+/*Footer*/
+.footer
+{
+    background: #232323;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    font-weight: 600;
+    transition: 0.5s;
+    width: auto;
+}
+.footer:hover
+{
+    color: #006cff;
+}

@@ -1,0 +1,223 @@
+/* Importing font Style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+    padding: 0; margin: 0;
+    box-sizing: border-box; font-family: "Poppins","Arial";
+    list-style: none;
+    text-decoration: none;
+}
+body
+{
+    background: #dfe9f5;
+    min-height: 100vh;
+}
+
+
+/*For Navigation bar*/
+nav
+{
+    padding: 12px 60px; width: 100%;
+    background: #232323; align-items: center;
+    top: 0; line-height: 80px;
+}
+nav img
+{
+    width: 60px; margin: -12px 5px;
+}
+nav label
+{
+    color: white; font-size: 32px; transition: 0.3s;
+    font-weight: 600; cursor:default; line-height: 60px;
+}
+nav label:hover
+{
+    color: #006cff;
+}
+nav ul
+{
+    float: right;
+}
+nav ul li
+{
+    height: 50px;  line-height: 80px;
+}
+nav ul li a
+{
+    color: white;   font-size: 20px;
+    padding: 5px 15px;  font-weight: 600;
+    transition: 0.5s; border-radius: 10px;
+    background-color: #EC2323;
+}
+nav ul li a:hover
+{
+    color: white; background-color: #232323;
+}
+
+/*For Side Menu bar*/
+.sidebar
+  {
+    margin-top: 0;  padding: 0;
+    width: 200px;   background-color: #f1f1f1;
+    float: left;    height: 100%;   overflow: auto;
+    position: absolute; font-weight: 600;
+  }
+
+  .sidebar h3
+  {
+    margin: 10px 14px; font-size: 18px;
+  }
+  
+  .sidebar a {
+    display: block; color: black;
+    padding: 15px 24px;  text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #006cff;
+    color: white;
+  }
+
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+
+/* Main content */
+.openbtn {
+    font-size: 32px;    cursor: pointer;
+    color: black;   padding: 10px 0px;
+    transition: 0.5s;   font-weight: 600;
+}
+.openbtn:hover 
+{
+    color: #006cff;
+}
+
+.main-content {
+    margin-left: 200px;
+    padding: 10px 16px;
+    min-height: 100vh;
+}
+.main-content .title
+{
+    font-size: 45px;
+}
+
+/*Table Form*/
+table
+{
+    border-collapse: collapse;  width: 92%;
+    margin: 10px 40px; text-align: center;
+}
+table th,td
+{
+    padding: 12px;
+}
+table th
+{
+    background: #0ED020;    color: white;
+    font-size: 20px;    border: 2px solid #0ED020;
+}
+table td
+{
+    border: 1.5px solid black; font-size: 16px;
+}
+table tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+    transition: 0.25s;
+}
+table tr:hover
+{
+   background: #ddd;
+}
+
+/*CRUD Buttons*/
+.main-content .addBtn
+{
+    padding: 10px 12px; background: #006cff;
+    margin: 10px 70px; float: right;
+    color: white; border-radius: 12px;
+}
+.main-content .addBtn:hover
+{
+    transition: 0.5s;
+    background: #232323;
+}
+
+a
+{
+    text-decoration: none;
+    font-weight: 600;
+}
+.btn-add
+{
+    font-size: 18px;
+    float: right;
+    margin: 10px 40px;
+    color: white;
+    background-color: blue;
+    padding: 12px;
+    border-radius: 6px;
+    border: 2px solid blue;
+}
+.btn-add:hover
+{
+    background: white;
+    transition: 0.25s;
+    color: blue;
+}
+.btn-edit
+{
+    padding: 5px;
+    background: #0ED020;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #0ED020;
+}
+.btn-edit:hover
+{
+    background: white;
+    transition: 0.5s;
+    color: #0ED020;
+}
+.btn-del
+{
+    padding: 5px;
+    background: #EC2323;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #EC2323;
+}
+.btn-del:hover
+{
+    background: white;
+    transition: 0.5s;
+    color: #EC2323;
+}
+
+
+/*Footer*/
+.footer
+{
+    background: #232323;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    transition: 0.5s;
+    width: auto;
+}
+.footer:hover
+{
+    color: #006cff;
+}
